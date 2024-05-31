@@ -1,0 +1,65 @@
+[
+  {
+    "Header": "Registration",
+    "RelaventQuestion": [
+      {
+        "Question": "How do I register?",
+        "Answer": "You can register by clicking on the `Register` link at the top right corner of the homepage. Please provide the information in the form that appears. You can review the terms and conditions, provide your payment mode details and submit the registration information."
+      },
+      {
+        "Question": "Are there any charges for registration?",
+        "Answer": "No. Registration on unique.com is absolutely free."
+      },
+      {
+        "Question": "Do I have to necessarily register to shop on unique bazar?",
+        "Answer": "You can surf and add products to the cart without registration but only registered shoppers will be able to checkout and place orders. Registered members have to be logged in at the time of checking out the cart, they will be prompted to do so if they are not logged in."
+      },
+      {
+        "Question": "Can I have multiple registrations?",
+        "Answer": "Each email address and contact phone number can only be associated with one bigbasket account."
+      }
+    ]
+  },
+  {
+    "Header": "Account Related",
+    "RelaventQuestion": [
+      {
+        "Question": "What is My Account?",
+        "Answer": "My Account is the section you reach after you log in at uniquebazar.com. My Account allows you to track your active orders, credit note details as well as see your order history and update your contact details."
+      },
+      {
+        "Question": "How do I reset my password?",
+        "Answer": "You need to enter your email address on the Login page and click on forgot password. An email with a reset password will be sent to your email address. With this, you can change your password. In case of any further issues please contact our customer support team."
+      },
+      {
+        "Question": "What are credit notes & where can I see my credit notes?",
+        "Answer": "Credit notes reflect the amount of money which you have pending in your bigbasket account to use against future purchases. This is calculated by deducting your total order value minus undelivered value. You can see this in `My Account` under credit note details."
+      },
+      {
+        "Question": "What is My Shopping List?",
+        "Answer": "My Shopping List is a comprehensive list of all the items previously ordered by you on uniquebazar.com. This enables you to shop quickly and easily in future."
+      }
+    ]
+  },
+  {
+    "Header": "Payment",
+    "RelaventQuestion": [
+      {
+        "Question": "What are the modes of payment?",
+        "Answer": "Cash on delivery (COD) ,debit cards (VISA / Mastercard / Rupay)"
+      },
+      {
+        "Question": "Is it safe to use my credit/ debit card on unique bazar?",
+        "Answer": "Yes it is absolutely safe to use your card on uniquebazar.com. A recent directive from RBI makes it mandatory to have an additional authentication pass code verified by VISA (VBV) or MSC (Master Secure Code) which has to be entered by online shoppers while paying online using visa or master credit card. It means extra security for customers, thus making online shopping safer "
+      },
+      {
+        "Question": "What is the meaning of cash on delivery?",
+        "Answer": "Cash on delivery means that you can pay for your order at the time of order delivery at your doorstep."
+      },
+      {
+        "Question": "If I pay by credit card how do I get the amount back for items not delivered?",
+        "Answer": "If we are not able to delivery all the products in your order and you have already paid for them online, the balance amount will be refunded to your uniquebazar account as store credit and you can use it at any time against your future orders. Should you want it to be credited to your bank account please contact our customer support team and we will refund it back on to your card."
+      }
+    ]
+  }
+]

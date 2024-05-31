@@ -1,0 +1,240 @@
+[
+  {
+    "category": "select",
+    "subcategory": ["select"]
+  },
+  {
+    "category": "Groceries",
+    "subcategory": [
+      "select",
+      "Fruits & Vegetables",
+      "Dairy & Bakery",
+      "Staples",
+      "Snacks & Branded Foods",
+      "Beverages",
+      "Personal Care",
+      "Home Care",
+      "Home & Kitchen",
+      "Mom & Baby Care",
+      "Pets",
+      "Beauty"
+    ]
+  },
+
+  {
+    "category": "Fashion",
+    "subcategory": [
+      "select",
+      "Men's Fashion",
+      "Women's Fashion",
+      "Kids' Fashion",
+      "Baby & Toddler Fashion",
+      "Watches",
+      "Jewellery",
+      "Sunglasses",
+      "Footwear",
+      "Handbags & Wallets",
+      "Clothing Accessories",
+      "Sportswear",
+      "Swimwear"
+    ]
+  },
+  {
+    "category": "Beauty & Personal Care",
+    "subcategory": [
+      "select",
+      "Makeup",
+      "Skincare",
+      "Haircare",
+      "Fragrances",
+      "Bath & Body",
+      "Men's Grooming",
+      "Women's Grooming",
+      "Baby Care",
+      "Tools & Accessories",
+      "Health & Wellness",
+      "Medical Devices"
+    ]
+  },
+  {
+    "category": "Sports & Fitness",
+    "subcategory": [
+      "select",
+      "Sports Equipment",
+      "Outdoor Sports",
+      "Indoor Sports",
+      "Exercise & Fitness Accessories",
+      "Sports Apparel",
+      "Sports Shoes",
+      "Sports Accessories",
+      "Sports Nutrition",
+      "Sports Equipment Accessories",
+      "Sports Equipment Cleaning",
+      "Sports Equipment Repair"
+    ]
+  },
+  {
+    "category": "Toys, Kids & Babies",
+    "subcategory": [
+      "select",
+      "Toys",
+      "Kids' Clothing",
+      "Baby Products",
+      "Toddler Toys",
+      "Infant Toys",
+      "Puzzles & Educational Toys",
+      "Baby Care & Safety",
+      "Baby Gifts",
+      "Toy Accessories",
+      "Baby Bath & Skin Care",
+      "Baby Food & Supplements",
+      "Baby Diapering & Potty Training",
+      "Baby Health & Safety"
+    ]
+  },
+  {
+    "category": "Automotive",
+    "subcategory": [
+      "select",
+      "Car Electronics",
+      "Car Audio & Video",
+      "Car Accessories",
+      "Car Seats",
+      "Car Cleaning & Maintenance",
+      "Car Grooming & Care",
+      "Car Performance & Modification",
+      "Car Tires & Wheels",
+      "Car Electronics Accessories",
+      "Car Audio & Video Accessories",
+      "Car Seats Accessories",
+      "Car Cleaning & Maintenance Accessories",
+      "Car Grooming & Care Accessories",
+      "Car Performance & Modification Accessories",
+      "Car Tires & Wheels Accessories"
+    ]
+  },
+  {
+    "category": "Home & Garden",
+    "subcategory": [
+      "select",
+      "Kitchen & Dining",
+      "Bathroom & Laundry",
+      "Home Decor",
+      "Furniture",
+      "Gardening & Landscaping",
+      "Hardware & Tools",
+      "Pet Supplies",
+      "Home Appliances",
+      "Home Improvement Tools",
+      "Home Security Systems",
+      "Home Automation Systems",
+      "Home Entertainment Systems",
+      "Home Storage & Organization",
+      "Home Cleaning Supplies",
+      "Home Cleaning Tools",
+      "Home Cleaning Accessories",
+      "Home Cleaning Services"
+    ]
+  },
+  {
+    "category": "Books & Stationery",
+    "subcategory": [
+      "select",
+      "Books",
+      "Magazines",
+      "Textbooks",
+      "Stationery",
+      "Notebooks",
+      "Pens & Writing Instruments",
+      "School Supplies",
+      "Craft Supplies",
+      "Gift Cards & Vouchers",
+      "Book Signed & Autographed",
+      "Book Clubs",
+      "Book Reviews",
+      "Book Clubs",
+      "Book Clubs",
+      "Book Clubs"
+    ]
+  },
+  {
+    "category": "Sports & Outdoors",
+    "subcategory": [
+      "select",
+      "Outdoor Sports Equipment",
+      "Camping & Hiking",
+      "Fitness & Exercise Equipment",
+      "Sports Apparel",
+      "Sports Bags & Accessories",
+      "Sports Shoes",
+      "Sports Gloves & Mitts",
+      "Sports Accessories",
+      "Outdoor Clothing",
+      "Outdoor Footwear",
+      "Outdoor Tools & Equipment",
+      "Outdoor Cooking & Camping Supplies",
+      "Outdoor Games & Toys",
+      "Outdoor Furniture",
+      "Outdoor Lighting",
+      "Outdoor Storage & Organization",
+      "Outdoor Cleaning Supplies",
+      "Outdoor Cleaning Tools",
+      "Outdoor Cleaning Accessories",
+      "Outdoor Cleaning Services"
+    ]
+  },
+  {
+    "category": "Toys & Games",
+    "subcategory": [
+      "select",
+      "Action Figures",
+      "Board Games",
+      "Card Games",
+      "Dolls & Bears",
+      "Games",
+      "Puzzles",
+      "Building Sets",
+      "Model Kits",
+      "Arts & Crafts",
+      "Musical Instruments",
+      "Video Games",
+      "Video Game Consoles",
+      "Video Game Accessories",
+      "Video Game Merchandise",
+      "Video Game Collectibles",
+      "Video Game Reviews",
+      "Video Game Reviews",
+      "Video Game Reviews",
+      "Video Game Reviews",
+      "Video Game Reviews"
+    ]
+  },
+
+  {
+    "category": "Electronics",
+    "subcategory": [
+      "select",
+      "Mobiles & Tablets",
+      "TV & Speaker",
+      "Home Appliances",
+      "Computers",
+      "Cameras",
+      "Kitchen Appliances",
+      "Personal Care & Grooming",
+      "Smart Devices",
+      "Gaming",
+      "Accessories",
+      "Smart Watch Accessories",
+      "Air Conditioners",
+      "Audio, Speaker Stands",
+      "Phones",
+      "Office Products",
+      "Health Care Devices",
+      "Electronic Musical Instruments",
+      "Car Accessories",
+      "Multimedia Speakers",
+      "Smart Bands",
+      "Musical Instruments"
+    ]
+  }
+]

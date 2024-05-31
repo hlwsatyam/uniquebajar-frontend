@@ -1,0 +1,69 @@
+[
+  {
+    "Groceries": [
+      { "list": "Fruits", "sublist": ["Almonds", "Raisins", "Munnakka"] },
+      {
+        "list": "Oils & Refindes",
+        "sublist": ["Almonds", "Raisins", "Munnakka"]
+      },
+      {
+        "list": "Four and Rices",
+        "sublist": ["Atta", "Rice"]
+      },
+      {
+        "list": "Sugar and SugarFree",
+        "sublist": ["Sugar", "White Sugar"]
+      },
+      {
+        "list": "Pickle & and Jams",
+        "sublist": ["Pickle", "Jams"]
+      },
+      {
+        "list": "Personal Care",
+        "sublist": [
+          "Baby Care",
+          "Hair Care",
+          "Dental Care",
+          "Home Care",
+          "Body Care"
+        ]
+      },
+      {
+        "list": "Snacks",
+        "sublist": ["Namkeen", "Biscuits"]
+      }
+    ],
+    "Electronics": [
+      {
+        "list": "Kitchens",
+        "sublist": ["Electric Kettle", "Toaster", "Micro wave"]
+      },
+      {
+        "list": "Grooming",
+        "sublist": ["Hair Dryer"]
+      },
+      {
+        "list": "Health Care Devices",
+        "sublist": ["Room Heater"]
+      }
+    ],
+    "Beauty": [
+      {
+        "list": "Fash Wash",
+        "sublist": ["Fash washes", "Toaster", "Micro wave"]
+      },
+      {
+        "list": "Soap",
+        "sublist": ["Hair Dryer"]
+      },
+      {
+        "list": "Powder",
+        "sublist": ["Room Heater"]
+      },
+      {
+        "list": "Sunscreen Lotion",
+        "sublist": ["Room Heater"]
+      }
+    ]
+  }
+]

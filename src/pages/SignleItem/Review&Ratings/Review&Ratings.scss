@@ -1,0 +1,13 @@
+.rev-responsive {
+  display: flex;
+}
+@media only screen and (max-width: 768px) {
+  .rev-responsive {
+    display: flex;
+    flex-direction: column;
+  }
+  .comment-list,
+  .rev-rate-data {
+    width: 100%;
+  }
+}
