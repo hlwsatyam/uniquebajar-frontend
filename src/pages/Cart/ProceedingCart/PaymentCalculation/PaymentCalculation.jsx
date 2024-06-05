@@ -13,7 +13,6 @@ const PaymentCalculation = ({
       {cartProceedList[0].done ? (
         <div>
           <h2 className="text-[#000000] text-[24px] font-bold">Checkout</h2>
-          
           <SelectAddress
             deleveryAddress={deleveryAddress}
             setDeleveryAddress={setDeleveryAddress}

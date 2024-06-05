@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProductInformation = ({ productData }) => {
-  console.log(JSON.parse(productData.product_informations));
+   
   return (
     productData && (
       <div className="my-3 border-b-2 p-3">

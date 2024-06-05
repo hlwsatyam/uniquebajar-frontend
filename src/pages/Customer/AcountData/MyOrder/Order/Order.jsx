@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import OrderTruck from "../../../../../assets/Background/Truck delivery service.gif";
 import { Link, useNavigate } from "react-router-dom";
- 
+
 import { formatDate } from "../../../../../components/SupportiveFunction/FormatDate";
 import { CancelOrder } from "../../../../../components/SupportiveFunction/CancelOrder";
 import { BaseApiUrl } from "../../../../../components/Fetchings/OnlineData";
@@ -186,14 +186,14 @@ const PaginationButton = ({ page, setPage }) => {
   return (
     <div className="my-3 p-2 bg-slate-400/20 flex justify-end items-center gap-x-2">
       <button
-        onClick={() => updatePage("Inc")}
+        onClick={() => updatePage("Dec")}
         className="text-sm bg-slate-50 rounded-full px-2 "
       >
         {" "}
         Prev{" "}
       </button>
       <button
-        onClick={() => updatePage("Dec")}
+        onClick={() => updatePage("Inc")}
         className="text-sm bg-slate-50 rounded-full px-2 "
       >
         {" "}

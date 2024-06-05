@@ -25,11 +25,12 @@ const SignleItem = () => {
       const response = await axios.get(
         `${BaseApiUrl}/api/data/singlef/${productNo}`
       );
-      console.log(response.data);
+      if(response.status===200){
       setProductData(response.data);
+       }
+      
     } catch (error) {
-      console.error("Error fetching product data:", error);
-      // Handle the error, e.g., set an error state
+       
     }
   };
 

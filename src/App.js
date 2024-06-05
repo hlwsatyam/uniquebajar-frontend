@@ -31,6 +31,8 @@ import SellerAdmin from "./pages/Seller/SellerAdmin/SellerAdmin";
 import RefundPolicy from "./pages/Legality/Refund/RefundPolicy";
 import toast, { Toaster } from "react-hot-toast";
 import UpdateProduct from "./pages/Seller/SellerAdmin/UpdateProduct/UpdateProduct";
+import PaymentSuccess from "./pages/Legality/PayStatus/PaymentSuccess";
+import PaymentFailed from "./pages/Legality/PayStatus/PaymentFailed";
 const App = () => {
   useEffect(() => {
     CookieConsent();
@@ -42,11 +44,9 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-
           <Route path="/:category" element={<Items />} />
           <Route path="/categories" element={<Category />} />
           <Route path="/categories" element={<Category />} />
-
           <Route path="/:itemname/:itemno" element={<SignleItem />} />
           <Route path="/account/login" element={<Login />} />
           <Route path="/checkout/cart" element={<Cart />} />
@@ -65,6 +65,8 @@ const App = () => {
           <Route path="refund-policy" element={<RefundPolicy />} />
           <Route path="return-policy" element={<ReturnPolicy />} />
           <Route path="/helpcentre" element={<Helpcenter />} />
+          <Route path="/payment-success" element={<PaymentSuccess />} />
+          <Route path="/payment-failed" element={<PaymentFailed />} />
           {/* Customer */}
           <Route path="/customer/profile" element={<Customer />} />
           <Route path="/customer/whishlist" element={<WishList />} />

@@ -66,7 +66,6 @@ const Login = () => {
           className="w-[450px] h-[450px] md:block lg:block hidden"
           alt="Login Img"
         />
-
         <div className="md:col-span-1 rounded-[20px] shadow p-10 bg-slate-50 lg:col-span-1 flex flex-col items-center justify-center">
           <h1 className="font-extrabold text-3xl w-full  ">
             Verify Your Account

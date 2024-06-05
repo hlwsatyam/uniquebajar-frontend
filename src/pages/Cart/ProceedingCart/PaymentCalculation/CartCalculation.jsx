@@ -3,7 +3,8 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { BaseApiUrl } from "../../../../components/Fetchings/OnlineData";
-
+import toast from "react-hot-toast";
+import { v4 as uuidv4 } from "uuid";
 const CartCalculation = ({
   cartProceedList,
   setCartProceedList,
@@ -17,29 +18,8 @@ const CartCalculation = ({
     if (!loginStatus.isLogged) {
       return navigate("/account/login");
     }
-    if (DeleveryAddress != "") {
-      return await axios
-        .post(`${BaseApiUrl}/api/customer/order/payment`, {
-          // productDetails: localStorage.getItem("cart"),
-          // customerId: localStorage.getItem("customerToken"),
-          // DeleveryAddress,
-          MUID: "MUID" + Date.now(),
-          transactionId:"T" + Date.now(),
-          number: 8059424475,
-          name: "Satyam",
-          amount: 22,
-        })
-        .then((res) => {
-          if (res.data && res.data.data.instrumentResponse.redirectInfo.url) {
-            window.location.href = res.data.data.instrumentResponse.redirectInfo.url;
-        }
-        })
-        .catch((err) => {
-          alert("Server Internal Error!");
-        });
-    }
 
-    if (cartProceedList[1]?.done && DeleveryAddress != "") {
+    if (cartProceedList[0]?.done && DeleveryAddress != "") {
       return await axios
         .post(`${BaseApiUrl}/api/customer/order/orderplace`, {
           productDetails: localStorage.getItem("cart"),
@@ -47,12 +27,73 @@ const CartCalculation = ({
           DeleveryAddress,
         })
         .then((res) => {
-          console.log(res.data);
-          return alert("Pay Now");
+          if (res.status === 200) {
+           
+            fetch(`${BaseApiUrl}/api/customer/order/payment`, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                name: "Satyam",
+                amount:
+                  priceChart?.total_price - priceChart?.discount_price || 0,
+                number: "8059424475",
+                orderIds: res.data.orderIds,
+                MUID: `MUID${uuidv4()}`,
+                transactionId: `T${uuidv4()}`,
+              }),
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                window.location.href = data;
+              })
+              .catch((error) =>
+                toast.error(error?.message || "Something Went Worng", {
+                  duration: 5000,
+                  position: "top-right",
+                  // Styling
+                  style: {
+                    background: "#333",
+                    color: "#fff",
+                  },
+                })
+              );
+          } else {
+            toast.error(res?.data?.message || "Something went wrong", {
+              duration: 5000,
+              position: "top-right",
+              // Styling
+              style: {
+                background: "#333",
+                color: "#fff",
+              },
+            });
+          }
         })
         .catch((err) => {
-          alert("Server Internal Error!");
+          toast.error(err?.message || "Something went wrong", {
+            duration: 5000,
+            position: "top-right",
+            // Styling
+            style: {
+              background: "#333",
+              color: "#fff",
+            },
+          });
         });
+    }
+
+    if (cartProceedList[1].done && !DeleveryAddress) {
+      return toast.error("Please Select Delevery Address", {
+        duration: 5000,
+        position: "top-right",
+        // Styling
+        style: {
+          background: "#333",
+          color: "#fff",
+        },
+      });
     }
 
     const newCartProceedList = cartProceedList.map((item, index) => {
